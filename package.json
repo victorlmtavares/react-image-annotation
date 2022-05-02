@@ -12,7 +12,7 @@
     "umd"
   ],
   "scripts": {
-    "build": "nwb build-react-component",
+    "build": "nwb build-react-component --copy-files",
     "deploy": "gh-pages -d demo/dist",
     "clean": "nwb clean-module && nwb clean-demo",
     "start": "nwb serve-react-demo",
@@ -21,12 +21,24 @@
     "test:watch": "nwb test-react --server"
   },
   "dependencies": {
+<<<<<<< Updated upstream
+=======
+    "polygon-lookup": "^2.4.0",
+    "polygon-tools": "^0.4.8",
+    "react-lineto": "^3.1.2",
+    "react-rnd": "^10.3.5",
+>>>>>>> Stashed changes
     "styled-components": "^3.1.6"
   },
   "peerDependencies": {
     "prop-types": "^15.6.0",
+<<<<<<< Updated upstream
     "react": "^16.3",
     "react-dom": ">=0.14"
+=======
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+>>>>>>> Stashed changes
   },
   "devDependencies": {
     "chai": "^4.1.2",
@@ -35,8 +47,13 @@
     "gh-pages": "^1.1.0",
     "nwb": "0.21.x",
     "raw-loader": "^0.5.1",
+<<<<<<< Updated upstream
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+=======
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+>>>>>>> Stashed changes
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "react-syntax-highlighter": "^7.0.0",

@@ -287,6 +287,7 @@ export default compose(
           onMouseUp={this.onMouseUp}
           onMouseDown={this.onMouseDown}
           onMouseMove={this.onTargetMouseMove}
+          annotations={this.props.annotations}
         />
         {!props.disableOverlay && (
           renderOverlay({

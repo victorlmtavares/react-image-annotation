@@ -21,8 +21,14 @@ function Content (props) {
     <Container
       style={{
         position: 'absolute',
+<<<<<<< Updated upstream
         left: `${geometry.x}%`,
         top: `${geometry.y + geometry.height}%`,
+=======
+        left: ((geometry.type === PolygonSelector.TYPE) ? `${getHorizontallyCentralPoint(geometry.points)}%` : `${geometry.x}%`),
+        top: ((geometry.type === PolygonSelector.TYPE) ? `${getVerticallyLowestPoint(geometry.points)}%` : `${geometry.y + geometry.height}%`),
+        zIndex: -1,
+>>>>>>> Stashed changes
         ...props.style
       }}
       className={props.className}

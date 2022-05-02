@@ -101,13 +101,22 @@ export default {
       case PointSelector.TYPE:
         return (
           <Overlay>
-            Click to Annotate
+            Clique para anotar
           </Overlay>
         )
+<<<<<<< Updated upstream
+=======
+      case PolygonSelector.TYPE:
+        return (
+          <Overlay>
+            Clique para adicionar os vértices do polígono
+          </Overlay>
+        )
+>>>>>>> Stashed changes
       default:
         return (
           <Overlay>
-            Click and Drag to Annotate
+            Clique e arraste para anotar
           </Overlay>
         )
     }
